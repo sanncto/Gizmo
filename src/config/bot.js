@@ -20,14 +20,14 @@ export const botConfig = {
     // 1 = Streaming
     // 2 = Listening
     // 3 = Watching
-    // 4 = Custom
+    // 4 = Obtained
     // 5 = Competing
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Derived",
+        name: "Meridia's Beacon",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 4, 
       },
     ],
   },
